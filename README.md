@@ -1,13 +1,14 @@
 # htb_implement
-Implementation of hierarchical token buckets in POX
+Implementation of hierarchical token buckets in POX. This code just shows how to setup a simple token bucket in a topology.
+Two files are required for this. The file in `in_mininet` is used to setup the topology. The file in `in_pox` contains the controller.
 
 ## Prerequisites
 * Mininet
 * Pox
 
 ## Where to place files
-* Put the files from `in_mininet` into `mininet/custom`
-* Put the files from `in_pox` into `pox/pox/forwarding`
+* Put the files from the folder `in_mininet` into `mininet/custom`
+* Put the files from the folder `in_pox` into `pox/pox/forwarding`
 
 ## How to execute the controller
 * From inside the `mininet/custom` directory, run the following command
